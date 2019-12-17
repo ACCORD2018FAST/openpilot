@@ -166,8 +166,8 @@ ALERTS = [
 
   Alert(
       "startup",
-      "JESUS HAS THE STEERING WHEEL IN HIS HANDS",
-      "LET JESUS TAKE OVER",
+      "Be ready to take over at any time",
+      "Always keep hands on wheel and eyes on road",
       AlertStatus.normal, AlertSize.mid,
       Priority.LOW_LOWEST, VisualAlert.none, AudibleAlert.none, 0., 0., 15.),
 
@@ -349,8 +349,8 @@ ALERTS = [
 
   Alert(
       "wrongGear",
-      "WHY WOULD SWITCH GEARS WHILE AUTOPILOT IS ENGAGED?",
-      "PUT THAT GEAR IN DRIVE!",
+      "TAKE CONTROL IMMEDIATELY",
+      "Gear not D",
       AlertStatus.critical, AlertSize.full,
       Priority.MID, VisualAlert.steerRequired, AudibleAlert.chimeWarningRepeat, .1, 2., 2.),
 
@@ -377,8 +377,8 @@ ALERTS = [
 
   Alert(
       "seatbeltNotLatched",
-      "RAHAT, DO YOU WISH TO DIE TODAY?",
-      "PUT THAT SEATBELT BACK ON NOW!!",
+      "TAKE CONTROL IMMEDIATELY",
+      "Seatbelt Unlatched",
       AlertStatus.critical, AlertSize.full,
       Priority.MID, VisualAlert.steerRequired, AudibleAlert.chimeWarningRepeat, .1, 2., 2.),
 
