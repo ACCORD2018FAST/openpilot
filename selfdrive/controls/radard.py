@@ -94,8 +94,6 @@ class RadarD():
     else:
       self.mocked = mocked
 
-
-
     self.tracks = defaultdict(dict)
     self.kalman_params = KalmanParams(radar_ts)
 
